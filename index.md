@@ -81,7 +81,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 * September 2019 – present
 * Los Angeles, CA
 * Description:
-    * Create electronics to assist the data collection and driving of an advanced all-terrain vehicle build to compete in Baja SAE off-road competitions; work with low-level control and interaction of vehicle’s subsystems
+    * Create electronics to assist the data collection and driving of an advanced all-terrain vehicle built to compete in Baja SAE off-road competitions; work with low-level control and interaction of vehicle’s subsystems
     * Lead development of advanced data acquisition electronics for a custom dynamometer to improve vehicle performance
     * Construct a Raspberry Pi-based live data collection system that enables further analysis of vehicle behavior
 
