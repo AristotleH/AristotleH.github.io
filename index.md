@@ -6,7 +6,7 @@ toc_sticky: true
 toc_label: "Table of contents"
 title: Home
 ---
-Hi there, and welcome to my website! You can read about my experience in computer science below. This information is also available on my resume, which you can download as a PDF from the link in the header. To find out more about my work, you can check out my LinkedIn page and GitHub profile using the links in the left sidebar. I hope you enjoy your stay!
+Hi there, and welcome to my website! You can read about my experience in computer science below. This information is also available on my resume, which you can download as a PDF from the link in the header. To find out more about my work, you can check out my <a href="https://www.linkedin.com/in/aristotleh">LinkedIn page</a> and <a href="https://www.github.com/aristotleh">GitHub profile</a>. I hope you enjoy your stay!
 
 ## Education
 
