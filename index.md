@@ -29,22 +29,13 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 ### Marvell Technology
 * Software Engineer Intern
-* June 2021 – present
+* June 2021 – September 2021
 * Burlington, VT
 * Description:
-    * Design software that optimizes and analyzes critical components for ASIC AI accelerators and 5G networking products
-    * Engineer foundational improvements in chip power, performance, and yield by using Python, Pandas, Jupyter Notebook, and R Shiny to transform tens of thousands of semiconductor data collections and automate pivotal silicon design decisions
-    * Expand sophisticated memory selection software with novel statistics-based features and optimizations using C#, .NET
-    * Create presentations, documentation, and diagrams for internal engineering use and demonstration to executive directors
-
-### UCLA Scalable Analytics Institute
-* Undergraduate Researcher
-* January 2020 – present
-* Los Angeles, CA
-* Description:
-    * Pioneer work for a research project that automates and improves text identification with natural language processing (NLP)
-    * Utilize technologies like Python, PyTorch, and Docker to build novel tag generation machine learning (ML) algorithms
-    * Study NLP academic papers and testing existing supervised language models against large datasets to build upon existing neural network development; construct ML data processing for ingestion of millions of textual data points with data mining
+    * Designed software that optimizes and analyzes critical components for ASIC AI accelerators and 5G networking products
+    * Engineered foundational improvements in chip power, performance, and yield by using Python, Pandas, Jupyter Notebook, and R Shiny to transform tens of thousands of semiconductor data collections and automate pivotal silicon design decisions
+    * Expanded sophisticated memory selection software with novel statistics-based features and optimizations using C#, .NET
+    * Created presentations, documentation, and diagrams for internal engineering use and demonstration to executive directors
 
 ### Naval Postgraduate School
 * Research Intern
@@ -75,6 +66,15 @@ Hi there, and welcome to my website! You can read about my experience in compute
     * Architect database models and server routing for location and path orchestration by utilizing Node.js, Express, MongoDB, AWS
     * Build a Python bot simulator for deployment with Kubernetes, Docker; designed for use with production hardware
     * Implement delivery mapping and bot GPS features for user-facing mobile app using React Native, TypeScript
+
+### UCLA Scalable Analytics Institute
+* Undergraduate Researcher
+* January 2020 – present
+* Los Angeles, CA
+* Description:
+    * Pioneer work for a research project that automates and improves text identification with natural language processing (NLP)
+    * Utilize technologies like Python, PyTorch, and Docker to build novel tag generation machine learning (ML) algorithms
+    * Study NLP academic papers and testing existing supervised language models against large datasets to build upon existing neural network development; construct ML data processing for ingestion of millions of textual data points with data mining
 
 ### UCLA Bruin Racing Baja SAE
 * Project Engineer
