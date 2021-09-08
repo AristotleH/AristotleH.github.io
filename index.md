@@ -49,7 +49,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 ## Project and Extracurricular Experience
 
-### UCLA Upsilon Pi Epsilon
+### Upsilon Pi Epsilon at UCLA
 * Induction Chair
 * June 2021 – present
 * Los Angeles, CA
@@ -76,7 +76,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
     * Utilize technologies like Python, PyTorch, and Docker to build novel tag generation machine learning (ML) algorithms
     * Study NLP academic papers and testing existing supervised language models against large datasets to build upon existing neural network development; construct ML data processing for ingestion of millions of textual data points with data mining
 
-### UCLA Bruin Racing Baja SAE
+### Bruin Racing Baja
 * Project Engineer
 * September 2019 – present
 * Los Angeles, CA
