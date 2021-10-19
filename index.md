@@ -12,7 +12,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 ### University of California, Los Angeles (UCLA)
 * September 2019 – June 2023 (expected)
-* Bachelor of Science, Computer Science and Engineering
+* B.S. Computer Science
 * 4.0 GPA
 * Dean’s Honor List, member of Upsilon Pi Epsilon and Tau Beta Pi
 * Coursework: Data Structures, Algorithms, Architecture, Calculus, Discrete Math, Linear Algebra, Physics, Operating Systems
@@ -74,7 +74,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 * Description:
     * Pioneer work for a research project that automates and improves text identification with natural language processing (NLP)
     * Utilize technologies like Python, PyTorch, and Docker to build novel tag generation machine learning (ML) algorithms
-    * Study NLP academic papers and testing existing supervised language models against large datasets to build upon existing neural network development; construct ML data processing for ingestion of millions of textual data points with data mining
+    * Study NLP academic papers and test existing supervised language models against large datasets to build upon existing neural network development; construct ML data processing for ingestion of millions of textual data points with data mining
 
 ### Bruin Racing Baja
 * Project Engineer
