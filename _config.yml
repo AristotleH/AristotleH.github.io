@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Aristotle Henderson"
   avatar : "https://avatars.githubusercontent.com/u/53080395"
-  bio    : "I'm a third-year computer science and engineering student at UCLA with experience across industry and academia."
+  bio    : "I'm a third-year computer science student at UCLA with experience across industry and academia."
   location: "Los Angeles, CA"
   links:
     - label: "LinkedIn"

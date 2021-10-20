@@ -12,7 +12,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 ### University of California, Los Angeles (UCLA)
 * September 2019 – June 2023 (expected)
-* B.S. Computer Science
+* Bachelor of Science, Computer Science
 * 4.0 GPA
 * Dean’s Honor List, member of Upsilon Pi Epsilon and Tau Beta Pi
 * Coursework: Data Structures, Algorithms, Architecture, Calculus, Discrete Math, Linear Algebra, Physics, Operating Systems
