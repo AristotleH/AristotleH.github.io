@@ -27,6 +27,14 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 ## Work Experience
 
+### Stealth Startup
+* Software Engineer
+* October 2021 – present
+* Los Angeles, CA
+* Description:
+    * Developing frontend web interface and backend infrastructure for an innovative early-stage startup beyond the MVP stage
+    * Designing a second version of the full stack application; planning for long-term growth and scalability using modern frameworks
+
 ### Marvell Technology
 * Software Engineer Intern
 * June 2021 – September 2021
@@ -58,7 +66,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
     * Oversee collaborations with other committee chairs to introduce new networking programs for active members
 
 ### UCLA DevX
-* Software Developer
+* Software Engineer
 * October 2020 – present
 * Los Angeles, CA
 * Description:
