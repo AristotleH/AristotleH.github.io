@@ -1,8 +1,18 @@
 # macOS
 .DS_Store
+.nova*
 
 # Jekyll
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+#TeX
+*.ttf
+*.ttc
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex*

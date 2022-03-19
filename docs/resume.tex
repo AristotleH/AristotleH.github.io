@@ -1,0 +1,157 @@
+% !TeX program = xelatex
+
+\documentclass[10pt]{article}
+
+% Package list
+\usepackage{indentfirst}
+\usepackage{fontspec}
+\usepackage{float}
+\usepackage{hyphenat}
+\usepackage{sectsty}
+\usepackage{setspace}
+\usepackage{blindtext}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage[document]{ragged2e}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+% Defaults typeface to Times New Roman
+\usepackage[english]{babel}
+
+% Define margins and paper size
+\geometry{
+    letterpaper,
+    top=0.6in,
+    bottom=0.6in,
+    left=0.6in,
+    right=0.6in
+}
+
+% Declare font size and typeface for sections
+\sectionfont{\fontspec{Arial}\fontsize{18}{15}\selectfont}
+
+% Declare spacing and location of itemize members
+\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=*}
+
+% Place date/location on same line as subsection (company/title)
+\titleformat{\subsection}[runin]{}{}{}{}[]
+
+% Declare paragraph indent/spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Adjusts space character representation for use with some fonts (optional)
+%\newenvironment{goodspacing}{
+%   \fontdimen2\font=0.5em
+%}
+
+\begin{document}
+
+    % Enables environment for adjusted space character
+    %\begin{goodspacing}
+
+    % Enable ragged right text environment
+    \begin{raggedright}
+
+    % Disable page numbers
+    \thispagestyle{empty}
+
+    % Set default line spacing (optional)
+    \setstretch{1}
+
+    % Sets line spacing for sections/subsections
+    \titlespacing*{\section}{0pt}{8pt}{4pt}
+    \titlespacing*{\subsection}{0pt}{4pt}{0pt}
+
+    % Heading (name/contacts)
+    % Centers text
+    \begin{center}
+        % Temporarily increases line spacing
+        \openup 6pt
+
+        % Name, with modified font size, typeface, and bolding
+        {\fontsize{28pt}{14pt}\selectfont{\bfseries \fontspec{Arial} Aristotle Henderson}}
+
+        % Contact info
+        me@aristotleh.com {\textbar} aristotleh.com {\textbar} linkedin.com/in/aristotleh {\textbar} github.com/aristotleh
+    \end{center}
+
+    \section*{Education}
+
+        % Defines subsection of large font size and bolding; places italicized, bolded date/location
+        \subsection*{\textbf{\large{University of California, Los Angeles (UCLA)}}} \hfill \textbf{\textit{Expected Jun 2023}}
+        \begin{itemize}
+            \item Bachelor of Science, Computer Science
+            \item 4.0 GPA \textendash{} Dean's Honor List, member of Upsilon Pi Epsilon and Tau Beta Pi
+            \item Coursework: Data Structures, Algorithms, Architecture, Calculus, Discrete Math, Linear Algebra, Physics, Operating Systems
+        \end{itemize}
+
+    \section*{Technical Skills}
+
+        \begin{itemize}
+            \item Proficient using Python, C, C++, JavaScript, Bash; experience with C\#, Java, Swift, R, HTML, CSS, x86 assembly
+            \item Experience using AWS, Firebase, Node.js; proficient with Xcode, Android Studio, React Native, Git, Adobe CC, databases
+            \item Expertise in research, technical writing; skilled with distributed systems, object-oriented design, full-stack software development
+        \end{itemize}
+
+    \section*{Work Experience}
+	\subsection*{\textbf{\large{Meta \textendash{} Software Engineer Intern (Incoming)}}} \hfill \textbf{\textit{Jun 2022 to Sep 2022 \textendash{} Menlo Park, CA}}
+
+        \subsection*{\textbf{\large{Marvell \textendash{} Software Engineer Intern}}} \hfill \textbf{\textit{Jun 2021 to Sep 2021 \textendash{} Burlington, VT}}
+
+        \begin{itemize}
+            \item Designed software that optimizes and analyzes critical components for ASIC AI accelerators and 5G networking products
+            \item Engineered foundational improvements in chip power, performance, and yield by using Python, Pandas, Jupyter Notebook, and R Shiny to transform tens of thousands of semiconductor data collections and automate pivotal silicon design decisions
+            \item Expanded sophisticated memory selection software with novel statistics-based features and optimizations using C\#, .NET
+            \item Created presentations, documentation, and diagrams for internal engineering use and demonstration to executive directors
+        \end{itemize}
+
+        \subsection*{\textbf{\large{Naval Postgraduate School \textendash{} Research Intern}}} \hfill \textbf{\textit{Jun 2018 to Jul 2018 \textendash{} Monterey, CA}}
+        \begin{itemize}
+            \item Guided team's Android app creation, enabling interaction among defense experts; mentored by Dr. Edward B. Rockower
+            \item Employed Firebase Authentication/Database/Storage, Android Studio, Java libraries to host Global ECCO's strategy games and other media; allows gameplay between multiple devices with the use of many Android activities and fragments
+            \item Spearheaded the development of an iOS application in Swift with a matching feature set and backend integration
+            \item Authored technical reports and a research poster detailing the project's findings and achievements; progress enabled by my work included to our OSD leadership sponsor's 2018 Report to U.S. Congress
+        \end{itemize}
+
+    \section*{Project Experience}
+
+        \subsection*{\textbf{\large{Upsilon Pi Epsilon at UCLA \textendash{} Induction Chair}}} \hfill \textbf{\textit{Jun 2021 to present \textendash{} Los Angeles, CA}}
+        \begin{itemize}
+            \item Manage events and communications for the next generation of UPE scholars in service of the UCLA CS community
+            \item Oversee collaborations with other committee chairs to introduce new networking programs for active members
+        \end{itemize}
+
+        \subsection*{\textbf{\large{UCLA DevX \textendash{} Software Engineer}}} \hfill \textbf{\textit{Oct 2020 to present \textendash{} Los Angeles, CA}}
+        \begin{itemize}
+            \item Develop backend software for the foundation of BruinBot, an agile robotic delivery project designed to help UCLA
+            \item Architect database models and server routing for location and path orchestration by utilizing Node.js, Express, MongoDB, AWS
+            \item Build a Python bot simulator for deployment with Kubernetes, Docker; designed for use with production hardware
+            \item Implement innovative delivery mapping and bot GPS features for user-facing mobile app using React Native, TypeScript
+        \end{itemize}
+
+        \subsection*{\textbf{\large{Bruin Racing Baja \textendash{} Project Engineer}}} \hfill \textbf{\textit{Sep 2019 to present \textendash{} Los Angeles, CA}}
+        \begin{itemize}
+            \item Create data acquisition and navigation electronics for an advanced all-terrain vehicle with low-level control of subsystems
+            \item Lead development of advanced data acquisition electronics for a custom dynamometer to improve vehicle performance
+            \item Construct a Raspberry Pi-based live data collection system that enables further analysis of vehicle behavior
+        \end{itemize}
+        
+        \subsection*{\textbf{\large{UCLA Scalable Analytics Institute \textendash{} Undergraduate Researcher}}} \hfill \textbf{\textit{Jan 2020 to Nov 2021 \textendash{} Los Angeles, CA}}
+        \begin{itemize}
+            \item Pioneered work on a research project that automates and improves text identification with natural language processing (NLP)
+            \item Utilized technologies like Python, PyTorch, and Docker to build novel tag generation machine learning (ML) algorithms
+            \item Studied NLP academic papers and test existing supervised language models against large datasets to build upon existing neural network development; construct ML data processing for ingestion of millions of textual data points with data mining
+        \end{itemize}
+
+        \subsection*{\textbf{\large{Vibecheck: A Sentiment Analysis Search Engine}} \hfill \textbf{\textit{Apr 2020 to Jun 2020 \textendash{} Los Angeles, CA}}}
+        \begin{itemize}
+            \item Collaborated with a group of student developers on a full stack web application with React, JavaScript, and Python that presents sentiment information from social media; contributed to sentiment algorithm's design and social media API integration
+            \item Developed backend MySQL search trend database, all frontend React webpages, and search result data visualizations
+        \end{itemize}
+
+    \end{raggedright}
+    %\end{goodspacing}
+
+\end{document}
