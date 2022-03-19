@@ -34,6 +34,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 - Software Engineer Intern (Incoming)
 - June 2022 – September 2022
+- Menlo Park, CA
 
 ### Marvell
 
