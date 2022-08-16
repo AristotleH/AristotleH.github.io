@@ -5,19 +5,14 @@
 % Package list
 \usepackage{indentfirst}
 \usepackage{fontspec}
-\usepackage{float}
-\usepackage{hyphenat}
 \usepackage{sectsty}
 \usepackage{setspace}
-\usepackage{blindtext}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{geometry}
-\usepackage[document]{ragged2e}
-\usepackage[utf8]{inputenc}
-\usepackage{newtxtext}
-% Defaults typeface to Times New Roman
-\usepackage[english]{babel}
+
+\setromanfont{Times New Roman}
+\setsansfont{Arial}
 
 % Define margins and paper size
 \geometry{
@@ -29,7 +24,7 @@
 }
 
 % Declare font size and typeface for sections
-\sectionfont{\fontspec{Arial}\fontsize{18}{15}\selectfont}
+\sectionfont{\sffamily\fontsize{18}{15}\selectfont}
 
 % Declare spacing and location of itemize members
 \setlist[itemize]{noitemsep, topsep=1pt, leftmargin=*}
@@ -71,10 +66,10 @@
         \openup 6pt
 
         % Name, with modified font size, typeface, and bolding
-        {\fontsize{28pt}{14pt}\selectfont{\bfseries \fontspec{Arial} Aristotle Henderson}}
+        {\fontsize{28pt}{14pt}\selectfont{\bfseries\sffamily Aristotle Henderson}}
 
         % Contact info
-        me@aristotleh.com {\textbar} aristotleh.com {\textbar} linkedin.com/in/aristotleh {\textbar} github.com/aristotleh
+        me@aristotleh.com {\textbar} (831) 975-1278 {\textbar} aristotleh.com {\textbar} linkedin.com/in/aristotleh {\textbar} github.com/aristotleh
     \end{center}
 
     \section*{Education}
@@ -83,23 +78,28 @@
         \subsection*{\textbf{\large{University of California, Los Angeles (UCLA)}}} \hfill \textbf{\textit{Expected Jun 2023}}
         \begin{itemize}
             \item Bachelor of Science, Computer Science
-            \item 4.0 GPA \textendash{} Dean's Honor List, member of Upsilon Pi Epsilon and Tau Beta Pi
+            \item 3.99 GPA \textendash{} Dean's Honor List, member of Upsilon Pi Epsilon and Tau Beta Pi
             \item Coursework: Data Structures, Algorithms, Architecture, Calculus, Discrete Math, Linear Algebra, Physics, Operating Systems
         \end{itemize}
 
     \section*{Technical Skills}
 
         \begin{itemize}
-            \item Proficient using Python, C, C++, JavaScript, Bash; experience with C\#, Java, Swift, R, HTML, CSS, x86 assembly
+            \item Proficient using Python, C, C++, JavaScript, Bash, PHP; experience with C\#, Java, Swift, R, HTML, CSS, x86 assembly
             \item Experience using AWS, Firebase, Node.js; proficient with Xcode, Android Studio, React Native, Git, Adobe CC, databases
             \item Expertise in research, technical writing; skilled with distributed systems, object-oriented design, full-stack software development
         \end{itemize}
 
     \section*{Work Experience}
-	\subsection*{\textbf{\large{Meta \textendash{} Software Engineer Intern (Incoming)}}} \hfill \textbf{\textit{Jun 2022 to Sep 2022 \textendash{} Menlo Park, CA}}
 
-        \subsection*{\textbf{\large{Marvell \textendash{} Software Engineer Intern}}} \hfill \textbf{\textit{Jun 2021 to Sep 2021 \textendash{} Burlington, VT}}
+	    \subsection*{\textbf{\large{Meta (Facebook) \textendash{} Software Engineer Intern}}} \hfill \textbf{\textit{Jun 2022 to present \textendash{} Menlo Park, CA}}
+        \begin{itemize}
+            \item Build new internal tool for RTC calling infrastructure; design full-stack greenfield system using Hack (PHP), GraphQL, and React
+            \item Extend and expand scope of initial project to create cross-team opportunities for greater engineering efficiency
+            \item Create user experience presentation with Figma and lead weekly meetings about features and strategy; spearhead integration strategy with organization's other teams to enable faster development workflows for the entire Remote Presence org
+        \end{itemize}
 
+        \subsection*{\textbf{\large{Marvell Technology \textendash{} Software Engineer Intern}}} \hfill \textbf{\textit{Jun 2021 to Sep 2021 \textendash{} Burlington, VT}}
         \begin{itemize}
             \item Designed software that optimizes and analyzes critical components for ASIC AI accelerators and 5G networking products
             \item Engineered foundational improvements in chip power, performance, and yield by using Python, Pandas, Jupyter Notebook, and R Shiny to transform tens of thousands of semiconductor data collections and automate pivotal silicon design decisions
@@ -117,13 +117,13 @@
 
     \section*{Project Experience}
 
-        \subsection*{\textbf{\large{Upsilon Pi Epsilon at UCLA \textendash{} Induction Chair}}} \hfill \textbf{\textit{Jun 2021 to present \textendash{} Los Angeles, CA}}
+        \subsection*{\textbf{\large{Upsilon Pi Epsilon at UCLA \textendash{} Induction Director}}} \hfill \textbf{\textit{Jun 2021 to present \textendash{} Los Angeles, CA}}
         \begin{itemize}
             \item Manage events and communications for the next generation of UPE scholars in service of the UCLA CS community
             \item Oversee collaborations with other committee chairs to introduce new networking programs for active members
         \end{itemize}
 
-        \subsection*{\textbf{\large{UCLA DevX \textendash{} Software Engineer}}} \hfill \textbf{\textit{Oct 2020 to present \textendash{} Los Angeles, CA}}
+        \subsection*{\textbf{\large{UCLA DevX \textendash{} Engineering Manager}}} \hfill \textbf{\textit{Oct 2020 to present \textendash{} Los Angeles, CA}}
         \begin{itemize}
             \item Develop backend software for the foundation of BruinBot, an agile robotic delivery project designed to help UCLA
             \item Architect database models and server routing for location and path orchestration by utilizing Node.js, Express, MongoDB, AWS
@@ -131,7 +131,7 @@
             \item Implement innovative delivery mapping and bot GPS features for user-facing mobile app using React Native, TypeScript
         \end{itemize}
 
-        \subsection*{\textbf{\large{Bruin Racing Baja \textendash{} Project Engineer}}} \hfill \textbf{\textit{Sep 2019 to present \textendash{} Los Angeles, CA}}
+        \subsection*{\textbf{\large{Bruin Racing Baja \textendash{} Project Engineer}}} \hfill \textbf{\textit{Sep 2019 to Mar 2022 \textendash{} Los Angeles, CA}}
         \begin{itemize}
             \item Create data acquisition and navigation electronics for an advanced all-terrain vehicle with low-level control of subsystems
             \item Lead development of advanced data acquisition electronics for a custom dynamometer to improve vehicle performance
@@ -143,12 +143,6 @@
             \item Pioneered work on a research project that automates and improves text identification with natural language processing (NLP)
             \item Utilized technologies like Python, PyTorch, and Docker to build novel tag generation machine learning (ML) algorithms
             \item Studied NLP academic papers and test existing supervised language models against large datasets to build upon existing neural network development; construct ML data processing for ingestion of millions of textual data points with data mining
-        \end{itemize}
-
-        \subsection*{\textbf{\large{Vibecheck: A Sentiment Analysis Search Engine}} \hfill \textbf{\textit{Apr 2020 to Jun 2020 \textendash{} Los Angeles, CA}}}
-        \begin{itemize}
-            \item Collaborated with a group of student developers on a full stack web application with React, JavaScript, and Python that presents sentiment information from social media; contributed to sentiment algorithm's design and social media API integration
-            \item Developed backend MySQL search trend database, all frontend React webpages, and search result data visualizations
         \end{itemize}
 
     \end{raggedright}

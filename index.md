@@ -15,7 +15,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 - September 2019 – June 2023 (expected)
 - Bachelor of Science, Computer Science
-- 4.0 GPA
+- 3.99 GPA
 - Dean’s Honor List, member of Upsilon Pi Epsilon and Tau Beta Pi
 - Coursework: Data Structures, Algorithms, Architecture, Calculus, Discrete Math, Linear Algebra, Physics, Operating Systems
 
@@ -30,11 +30,15 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 ## Work Experience
 
-### Meta
+### Meta (Facebook)
 
-- Software Engineer Intern (Incoming)
-- June 2022 – September 2022
+- Software Engineer Intern
+- June 2022 – present
 - Menlo Park, CA
+- Description:
+  - Build new internal tool for RTC calling infrastructure; design full-stack greenfield system using Hack (PHP), GraphQL, and React
+  - Extend and expand scope of initial project to create cross-team opportunities for greater engineering efficiency
+  - Create user experience presentation with Figma and lead weekly meetings about features and strategy; spearhead integration strategy with organization's other teams to enable faster development workflows for the entire Remote Presence org
 
 ### Marvell
 
@@ -62,7 +66,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 ### Upsilon Pi Epsilon at UCLA
 
-- Induction Chair
+- Induction Director
 - June 2021 – present
 - Los Angeles, CA
 - Description:
@@ -71,7 +75,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 ### UCLA DevX
 
-- Software Engineer
+- Engineering Manager
 - October 2020 – present
 - Los Angeles, CA
 - Description:
