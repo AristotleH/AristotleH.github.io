@@ -11,7 +11,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-#TeX
+# TeX
 *.ttf
 *.ttc
 *.aux
