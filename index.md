@@ -37,7 +37,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 -   Menlo Park, CA
 -   Description:
     -   Built new full-stack internal tool for Remote Presence infrastructure with Hack (PHP), GraphQL, Relay, React, Recoil
-    -   Empowered engineers to visualize and debug RTC calling with a novel handling system for arbitrary data types and sources
+    -   Empowered engineers to visualize and debug RTC calling with a novel handling system for unlimited data sets and sources
     -   Independently extended and expanded scope of initial project to create cross-org opportunities for greater engineering efficiency
     -   Created full, prototyped design with Figma and led weekly meetings about features and strategy; spearheaded integration strategy with Remote Presence organization's other teams to quickly implement faster development workflows
 
