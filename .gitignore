@@ -2,6 +2,9 @@
 .DS_Store
 .nova*
 
+# VSCode
+.vscode/
+
 # Jekyll
 _site/
 .sass-cache/
