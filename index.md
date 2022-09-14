@@ -24,7 +24,7 @@ Hi there, and welcome to my website! You can read about my experience in compute
 -   Proficient using Python, C, C++, JavaScript, Bash, PHP
 -   Experience with C#, Java, Swift, R, HTML, CSS, x86 assembly
 -   Experience using AWS, Firebase, Node.js
--   Proficient with Xcode, Android Studio, React, Git, Adobe CC, databases
+-   Proficient with Xcode, Android Studio, React, React Native, Git, Adobe CC, databases
 -   Expertise in research, technical writing
 -   Skilled with distributed systems, object-oriented design, full-stack software development
 

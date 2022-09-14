@@ -20,4 +20,5 @@ _site/
 *.log
 *.synctex*
 *.xdv
+*.out
 resume-complete*
