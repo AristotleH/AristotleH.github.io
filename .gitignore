@@ -16,4 +16,5 @@ _site/
 *.fls
 *.log
 *.synctex*
+*.xdv
 resume-complete*
