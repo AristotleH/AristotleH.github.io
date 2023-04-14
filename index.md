@@ -15,18 +15,9 @@ Hi there, and welcome to my website! You can read about my experience in compute
 
 - September 2019 – June 2023 (expected)
 - Bachelor of Science, Computer Science
-- 3.99 GPA
+- 3.96 GPA
 - Dean’s Honor List, member of Upsilon Pi Epsilon and Tau Beta Pi
-- Coursework: Data Structures, Algorithms, Architecture, Calculus, Discrete Math, Linear Algebra, Physics, Operating Systems
-
-## Technical Skills
-
-- Proficient using Python, C, C++, JavaScript, Bash, PHP
-- Experience with C#, Java, Swift, R, HTML, CSS, x86 assembly
-- Experience using AWS, Firebase, Node.js
-- Proficient with Xcode, Android Studio, React, React Native, Git, Adobe CC, databases
-- Expertise in research, technical writing
-- Skilled with distributed systems, object-oriented design, full-stack software development
+- Coursework: Data Structures, Algorithms, Software Engineering, Operating Systems, Security, Graphics, Networks, Databases, Programming Languages, Compilers, Artificial Intelligence, Machine Learning, Computer Vision, Natural Language Processing
 
 ## Work Experience
 
@@ -62,6 +53,15 @@ Hi there, and welcome to my website! You can read about my experience in compute
   - Employed Firebase Authentication/Database/Storage, Android Studio, Java libraries to host Global ECCO’s strategy games and other media; allows gameplay between multiple devices with the use of many Android activities and fragments
   - Spearheaded the development of an iOS application in Swift with a matching feature set and backend integration
   - Authored technical reports and a research poster detailing the project’s findings and achievements; progress enabled by my work included to our OSD leadership sponsor’s 2018 Report to Congress
+
+## Technical Skills
+
+- Proficient using Python, C, C++, JavaScript, Bash, PHP
+- Experience with C#, Java, Swift, R, HTML, CSS, Assembly, Haskell
+- Experience using AWS, Firebase, Node.js
+- Proficient with Xcode, Android Studio, React, React Native, Git, Adobe CC, databases
+- Expertise in research, technical writing
+- Skilled with distributed systems, object-oriented design, full-stack software development
 
 ## Project and Extracurricular Experience
 
